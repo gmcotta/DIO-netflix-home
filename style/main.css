@@ -14,6 +14,7 @@
 body {
   background-color: var(--black);
   font-family: 'Times New Roman', Times, serif;
+  color: var(--white);
 }
 
 header .container {
@@ -37,4 +38,27 @@ header nav a {
 
 header nav a:hover {
   color: var(--white);
+}
+
+.main-movie {
+  font-size: 20px;
+  background: 
+    linear-gradient(to right, rgba(200, 200, 200, 0.5) 25%, rgba(0, 0, 0, 0.8)), 
+    url('../img/coringa-capa.jpg')
+  ;
+  background-size: cover;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.main-movie .description {
+  margin-bottom: 40px;
+}
+
+.main-movie .title {
+  text-transform: uppercase;
+  font-size: 40px;
 }
