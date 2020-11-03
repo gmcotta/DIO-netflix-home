@@ -13,7 +13,7 @@
 
 body {
   background-color: var(--black);
-  font-family: 'Times New Roman', Times, serif;
+  font-family: 'Arial', Times, serif;
   color: var(--white);
 }
 
@@ -34,6 +34,10 @@ header nav a {
   text-decoration: none;
   color: var(--gray);
   margin-right: 10px;
+}
+
+header nav a:nth-last-child(1) {
+  margin-right: 0;
 }
 
 header nav a:hover {
@@ -88,7 +92,7 @@ header nav a:hover {
 }
 
 .container {
-  margin-left: 20px;
+  margin: 0 20px;
 }
 
 .main-movie .container {
@@ -99,4 +103,8 @@ header nav a:hover {
   height: 100%;
   width: 100%;
   display: block;
+}
+
+.movies-carousel {
+  margin-top: 16px;
 }
